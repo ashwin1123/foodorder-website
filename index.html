@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/font-awesome/css/all.css">
+    <link rel="stylesheet" href="./css/myStyle.css">   
+</head>
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <div class="top-contact d-flex flex-wrap">
+                            <span class="mx-3"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;+91 - 123-4567-890</span>
+                            <span class="mx-3"><i class="fas fa-envelope"></i>&nbsp;&nbsp;hello@restaurant.com</span>
+                            <span><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;42 Flavor Street, Mumbai, India 400057</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="ttag"><i class="fas fa-fire me-1"></i>Free Delivery Today!</span>
+                            <div class="tsoc">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-tiktok"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg headerNavbar" aria-label="Eighth navbar example">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/SmallSquareLogoJpg.jpg" class="img-fluid logoImage"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 p-2">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#menu" tabindex="-1">Menu</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#chefs" tabindex="-1">Chefs</a>
+                        </li>
+                       
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#review" tabindex="-1">Review</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#contact" tabindex="-1">Contact</a>
+                        </li>
+                       
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <!-- <li class="nav-item">
+                            <i class="fas fa-search mx-2 my-2 "></i>
+                        </li> -->
+                        <li class="nav-item">
+                            <button class="nav-cta"><i class="fas fa-shopping-cart"></i> Order Now</button>
+                        </li>
+                    </ul>
+                        
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bannerImage" id="home">
+        <div class="hbgtxt">FOOD</div>
+        <div class="container">
+            <div class="row align-item-center ">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="hbadge">
+                                <div class="hbi"><i class="fas fa-star"></i></div>
+                                <span>#1 Rated Fast Food Restaurant in Mumbai</span>
+                            </div>
+                            <h1 class="htitle">Delicious <span class="hl">Fast Food</span><br>for Every <br>Moment</h1>
+                            <p class="hdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button class="btn btn-primary btn-red" onClick="document.getElementById('menu').scrollIntoView({behaviour:'smooth'});"> <i class="fas fa-utensils"></i>Explore Menu</button>
+
+                            
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <div class="banner-image">
+                                <img src="./img/New Project.jpg" alt="burger" class="img-fluid">
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seqMaqItem">
+        <div class="mqTrack">
+            <div class="mqitem"><i class="fas fa-circle"></i>Crispy Fried Chicken</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Gourmet Burgers</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Artisan Pizzas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Fresh Wraps &amp; Rolls</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Loaded Fries</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Ice Cream Shakes</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Grilled Sandwiches</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Crispy Fried Chicken</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Gourmet Burgers</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Artisan Pizzas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Fresh Wraps &amp; Rolls</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Loaded Fries</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Ice Cream Shakes</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Grilled Sandwiches</div>
+        </div>
+     
+    </section>
+
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="heading">
+                        <span class="whatweoffer">What We Offer</span>
+                        <h2 class="stitle">Browse by <span>Category</span></h2>
+                        <div class="sline"></div>
+                        <p class="sdesc mx-auto" style="max-width:480px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/New Project.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/New Project.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/pizzeria.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/4.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/5.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+                <div class="col col-sm-4 col-md-3 col-lg-2 mb-1">
+                    <div class="catcard active" data-filter="all">
+                        <img class="catimg" src="img/donut.jpg" alt="">
+                        <div class="catnm">All Items</div>
+                        <div class="catct">99 items</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionourstory" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 order-2">
+                    <div class="astack">
+                     <div class="aexp"><span class="anum">12+</span><small>Years of<br>Excellence</small></div>
+                     <div class="amain"><img src="img/sidebanner.jpg" alt="Restaurant"></div>
+                     <div class="asm"><img src="img/sidebanner2.jpg" alt=""></div>
+                  </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 px-5 order-1 mb-2">
+                    <div class="heading">
+                        <span class="whatweoffer">Our Story</span>
+                        <h2 class="stitle">We Invite You to Visit <br> Our <span>Food Restaurant</span></h2>
+                        <div class="sline lft"></div>
+                        <p class="sdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Founded in 2012, restaurant began as a small corner joint with a big dream - to serve food that brings people together. Today we're proud to serve thousands of happy customers every week with the same passion that started it all.</p>
+                        <div class="mb-4">
+                            <div class="fti">
+                                <div class="ftico r"><i class="fas fa-leaf"></i></div>
+                                <div>
+                                <h6>100% Fresh Ingredients</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="fti">
+                                <div class="ftico y"><i class="fas fa-award"></i></div>
+                                <div>
+                                <h6>Award-Winning Recipes</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="fti">
+                                <div class="ftico g"><i class="fas fa-shipping-fast"></i></div>
+                                <div>
+                                <h6>Lightning-Fast Delivery</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-red"> <i class="fas fa-book-open"></i>View Full Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfoio-section text-center" id="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="heading">
+                        <span class="whatweoffer">What's Cooking</span>
+                        <h2 class="stitle">Our Delicious<span>Menu</span></h2>
+                        <div class="sline"></div>
+                        
+                    </div>
+                </div>
+        </div>
+        <!-- CATEGORY FILTER BUTTONS -->
+        <div class="d-flex justify-content-center mb-5">
+            <div class="filter-container">
+                <button class="btn btn-filter active" data-filter="all">All</button>
+                <button class="btn btn-filter" data-filter="burgers">Burgers</button>
+                <button class="btn btn-filter" data-filter="pizza">Pizza</button>
+                <button class="btn btn-filter" data-filter="chicken">Chicken</button>
+                <button class="btn btn-filter" data-filter="wraps">Wraps</button>
+                <button class="btn btn-filter" data-filter="desserts">Desserts</button>
+            </div>
+        </div>
+
+        <!-- FOOD GRID CARDS -->
+        <div class="row g-4" id="foodGrid">
+
+            <!-- Card 1: Burger -->
+            <div class="col-xl-4 col-md-6 food-item burgers">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/burger.jpg" alt="Burger">
+                        <span class="badge badge-tag badge-hot"><i class="fa-solid fa-star me-1"></i>Hot</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Burgers</span>
+                            <h5 class="food-title mt-1">Classic Smash Burger</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$14.99</span>
+                                <small class="text-muted text-decoration-line-through">$18.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.8 <span class="text-muted">(128)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Pizza -->
+            <div class="col-xl-4 col-md-6 food-item pizza">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/Margherita Royale.jpg" alt="Margherita Royale">
+                        <span class="badge badge-tag badge-new"><i class="fa-solid fa-star me-1"></i>New</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Pizza</span>
+                            <h5 class="food-title mt-1">Margherita Royale</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. The Margherita Royale is our elevated take on the classic Neapolitan masterpiece. It features hand-stretched slow-fermented dough, San Marzano tomato sauce, creamy imported Fior di Latte mozzarella, fresh sweet basil, and a finishing drizzle of cold-pressed extra virgin olive oil.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$19.99</span>
+                                <small class="text-muted text-decoration-line-through">$24.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.9 <span class="text-muted">(95)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Chicken -->
+            <div class="col-xl-4 col-md-6 food-item chicken">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/Nashville Hot Chicken.jpg" alt="Hot Chicken">
+                        <span class="badge badge-tag badge-bestseller"><i class="fa-solid fa-star me-1"></i>Best Seller</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Chicken</span>
+                            <h5 class="food-title mt-1">Nashville Hot Chicken</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nashville Hot Chicken is crispy, juicy fried chicken coated in a fiery cayenne pepper paste and hot oil.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$12.99</span>
+                                <small class="text-muted text-decoration-line-through">$16.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.7 <span class="text-muted">(210)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Desserts -->
+            <div class="col-xl-4 col-md-6 food-item wraps">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/Loaded Fajita Wrap.jpg" alt="Fajita Wrap">
+                        <span class="badge badge-tag badge-new"><i class="fa-solid fa-star me-1"></i>New</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Wrap</span>
+                            <h5 class="food-title mt-1">Loaded Fajita Wrap</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A loaded fajita wrap is a quick, high-protein meal filled with seasoned chicken, sautéed bell peppers, onions, melted cheese, and fresh toppings inside a toasted tortilla.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$5.99</span>
+                                <small class="text-muted text-decoration-line-through">$8.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.9 <span class="text-muted">(84)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 5: Desserts -->
+            <div class="col-xl-4 col-md-6 food-item desserts">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/Nutella Lava Cake.jpg" alt="Lava Cake">
+                        <span class="badge badge-tag badge-new"><i class="fa-solid fa-star me-1"></i>New</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Desserts</span>
+                            <h5 class="food-title mt-1">Nutella Lava Cake</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. It features a warm, soft outer cake and a gooey, melted hazelnut-chocolate center that pours out with every single forkful.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$5.99</span>
+                                <small class="text-muted text-decoration-line-through">$8.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.9 <span class="text-muted">(84)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 6: Desserts -->
+            <div class="col-xl-4 col-md-6 food-item desserts">
+                <div class="card food-card h-100">
+                    <div class="food-img-wrapper">
+                        <img src="img/Truffle Mushroom Pasta.jpg" alt="Mushroom Pasta">
+                        <span class="badge badge-tag badge-new"><i class="fa-solid fa-star me-1"></i>New</span>
+                        <button class="btn-wishlist"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="category-subtitle">Pasta</span>
+                            <h5 class="food-title mt-1">Truffle Mushroom Pasta</h5>
+                            <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Creamy Truffle Mushroom Pasta is an indulgent, restaurant-quality dish featuring tender wild mushrooms, al dente long pasta, and a velvety garlic cream sauce enhanced with aromatic black truffle and aged parmesan cheese.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <div>
+                                <span class="fs-5 fw-bold text-danger me-1">$5.99</span>
+                                <small class="text-muted text-decoration-line-through">$8.99</small>
+                                <div class="small text-warning mt-1"><i class="fa-solid fa-star fs-6"></i> 4.9 <span class="text-muted">(84)</span></div>
+                            </div>
+                            <button class="btn-add-cart"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <button class="btn btn-primary btn-red mt-5"> <i class="fas fa-book-open"></i>View Full Menu</button>
+    </section>
+
+    <section class="specials">
+        <div class="specialbackground"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="special-tag"><i class="fas fa-bolt me-1"></i>Limited Time Offer</div>
+                    <h2 class="sptitle">Get 30% Off<br>Our Signature<br><span>Burger</span> Meal</h2>
+                    <p class="special-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="limitedoffer">
+                        <div class="specialprice"><span class="old">$24.99</span><span class="np">$17.49</span></div>
+                        <img src="img/off-img.jpg" alt="Special Burger"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- 
+    
+<div class="overlay"></div>
+<div class="bg"></div></div> -->
+
+
+<section id="gallery-2" class="gallery">
+	<div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="heading">
+                    <span class="whatweoffer">Food Showcase</span>
+                    <h2 class="stitle">Let's See Our<span> Fast Food</span></h2>
+                    <div class="sline"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="gal">
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/burger.jpg" alt="burger">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Loaded Fajita Wrap.jpg" alt="Fajita">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Nashville Hot Chicken.jpg" alt="Chicken">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Margherita Royale.jpg" alt="Cake">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Truffle Mushroom Pasta.jpg" alt="Pasta">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Nashville Hot Chicken.jpg" alt="Cake">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/burger.jpg" alt="Pasta">
+                    </div>
+                    <div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+                        <img class="img-fluid" src="img/Nutella Lava Cake.jpg" alt="Cake">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ourJourney pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="heading">
+                    <span class="whatweoffer">Our Journey</span>
+                    <h2 class="stitle">A History of<span> Restaurant</span></h2>
+                    <div class="sline"></div>
+                    <p class="mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. From humble beginnings to the city's most beloved restaurant - every chapter written with passion.</p>
+                </div>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                
+                    <div class="container py-5">
+                        <div class="main-timeline">
+                        <div class="timeline left">
+                            <div class="card">
+                            <div class="card-body p-4">
+                                <h3 class="whatweoffer">2017</h3>
+                                <h3 class="food-title">Evolution of Restaurants</h3>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto. </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="timeline right">
+                            <div class="card">
+                            <div class="card-body p-4 fineconcept">
+                                <h3 class="whatweoffer">2016</h3>
+                                <h3 class="food-title">Fine Dining & The Concept</h3>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto. </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="timeline left">
+                            <div class="card">
+                            <div class="card-body p-4">
+                                <h3 class="whatweoffer">2015</h3>
+                                <h3 class="food-title">Modern Fast Food Origins</h3>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="timeline right">
+                            <div class="card">
+                            <div class="card-body p-4 fineconcept">
+                                <h3 class="whatweoffer">2012</h3>
+                                <h3 class="food-title">National Expansion</h3>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto.</p>
+                            </div>
+                            </div>
+                        </div>
+                       
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="culnaryteam" id="chefs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-4">
+                <div class="heading">
+                    <span class="whatweoffer">The Culinary Team</span>
+                    <h2 class="stitle">Meet Our Expert<span> Chefs</span></h2>
+                    <div class="sline"></div>
+                    
+                </div>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <!-- Card-->
+                    
+                    <div class="card profile-card border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                            <img src="img/chefs (1).jpg" class="card-img-top" alt="Profile Image">
+                            
+                            <!-- Hover Overlay with Social Icons -->
+                            <div class="social-overlay d-flex justify-content-center align-items-center gap-3">
+                                <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Alice Mortal</h5>
+                        <h5 class="card-text text-muted">Head Chef</h5>
+                        <span>12 years experience</span>
+                        </div>
+                    </div>
+      <!-- End Profile Card -->
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center">
+                    <!-- Card-->
+                  
+                    <div class="card profile-card border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                        <img src="img/chefs.jpg" class="card-img-top" alt="Profile Image">
+                        
+                        <!-- Hover Overlay with Social Icons -->
+                        <div class="social-overlay d-flex justify-content-center align-items-center gap-3">
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        </div>
+                        
+                        <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Michael Corn</h5>
+                        <h5 class="card-text text-muted">Grill Master</h5>
+                         <span>15 years experience</span>
+                        </div>
+                    </div>
+                    <!-- End Profile Card -->
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center">
+                    <!-- Card-->
+                    
+                    <div class="card profile-card border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                        <img src="img/chefs (2).jpg" class="card-img-top" alt="Profile Image">
+                        
+                        <!-- Hover Overlay with Social Icons -->
+                        <div class="social-overlay d-flex justify-content-center align-items-center gap-3">
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        </div>
+                        
+                        <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Faz Chowdel</h5>
+                        <h5 class="card-text text-muted">Pastry Chef</h5>
+                        <span>6 years experience</span>
+                        </div>
+                    </div>
+                    <!-- End Profile Card -->
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center">
+                    <!-- Card-->
+                    <div class="card profile-card border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                        <img src="img/chefs (3).jpg" class="card-img-top" alt="Profile Image">
+                        
+                        <!-- Hover Overlay with Social Icons -->
+                       <div class="social-overlay d-flex justify-content-center align-items-center gap-3">
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-light rounded-circle"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        </div>
+                        
+                        <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">William Latnum</h5>
+                        <h5 class="card-text text-muted">Pizza Artisan</h5>
+                         <span>8 years experience</span>
+                        </div>
+                    </div>
+                    <!-- End Profile Card -->
+                </div>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Opening-Hours">
+    <div class="hropen"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-4">
+                <div class="heading">
+                    <span class="openinghourspan">Opening Hours</span>
+                    <h2 class="stitle text-white">We're Open<span class="foryouspan"> For You</span></h2>
+                    <div class="sline"></div>
+                </div>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="row">
+                    <div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-1">
+                        <div class="hrscard">
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-calendar-day me-2"></i>Monday - Tuesday</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot off"></div>
+                                <span class="hrstime" style="color:#ff6b6b;">Closed</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-calendar-day me-2"></i>Wednesday - Thursday</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">09:00 AM - 10:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-calendar-day me-2"></i>Friday</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">09:00 AM - 11:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-calendar-day me-2"></i>Saturday</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">10:00 AM - 11:30 PM</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-calendar-day me-2"></i>Sunday</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">11:00 AM - 09:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-1">
+                        <div class="hrscta">
+                            <i class="fas fa-truck-fast fa-2x mb-3"></i>
+                            <h4>Order Online</h4>
+                            <p>Get hot food delivered in 25 minutes</p>
+                            <a href="#menu" class="btnw">Order Now ?</a>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-1">
+                        <div class="hrscard">
+                            <div class="hrsrow">
+                                <span class="hrsday findusmap"><i class="fas fa-map-marker-alt me-2"></i>Find Us</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <!-- <div class="hdot off"></div>
+                                <span class="hrstime" style="color:#ff6b6b;">Closed</span> -->
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-map-marker-alt me-2"></i>Address</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">42 Flavor Street, Bandra Kurla complex, Mumbai</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-phone me-2"></i>Phone</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">+91 - 123-4567-890</span>
+                                </div>
+                            </div>
+                            <div class="hrsrow">
+                                <span class="hrsday"><i class="fas fa-envelope me-2"></i>Email</span>
+                                <div class="d-flex align-items-center gap-2">
+                                <div class="hdot on"></div>
+                                <span class="hrstime">hello@restaurant.com</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonial" id="review">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="heading">
+                    <span class="whatweoffer">What People Say</span>
+                    <h2 class="stitle">Our Customers<span> Feedback</span></h2>
+                    <div class="sline"></div>
+                </div>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="container py-3">
+                    <div id="testimonialCarousel" class="carousel">
+                        <div class="carousel-inner pb-0">
+                        <div class="carousel-item active">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-1.png" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-2.png" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3">
+                            <div class="quotes display-2 text-body-tertiary">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+                                <div class="d-flex align-items-center pt-2">
+                                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                                <div>
+                                    <h5 class="card-title fw-bold clientname">Jane Doe</h5>
+                                    <span class="text-secondary ceo-desk">CEO, Example Company</span>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stayconnencted">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-4">
+                <div class="heading">
+                    <span class="text-white opacity-50 staycone whatweoffer">Stay Connected</span>
+                    <h2 class="stitle text-white">Subscribe & Get Exclusive<span class="foryouspan"> Deals</span></h2>
+                    <p class="text-white discountorder">Get 15% off your first order plus early access to new menu items</p>
+                    <!-- <div class="sline"></div> -->
+                    <form class="row g-3 stayconnectedform">
+                        <div class="col-md-5 offset-md-3">
+                            <input type="email" class="form-control" id="inputPassword2" placeholder="Enter your email address...">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary nlbtn"><i class="fas fa-paper-plane me-1"></i>Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="contact-section py-5" id="contact">
+    <div class="container py-4">
+        <!-- Section Header -->
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <span class="whatweoffer">Get In Touch</span>
+                <h2 class="section-title fw-bold display-5 mt-1 stitle">Contact <span class="text-danger">Us</span></h2>
+                <div class="title-line mx-auto"></div>
+                <p class="text-muted mt-3 mb-0 discountorder">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact Box Grid -->
+        <div class="row g-4 justify-content-center align-items-stretch">
+            <!-- Left Info Card -->
+            <div class="col-lg-4 col-md-5">
+                <div class="contact-info-card text-white p-4 p-xl-5 h-100 rounded-4 d-flex flex-column justify-content-between">
+                    <div>
+                        <h3 class="fw-serif mb-2">Let's Talk</h3>
+                        <p class="text-secondary-light small mb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                        <div class="info-list d-flex flex-column gap-4 mt-4">
+                            <!-- Address -->
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box rounded-3 text-danger d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <small class="text-uppercase text-secondary-light fw-semibold d-block">Address</small>
+                                    <span class="fw-medium small">42 Flavor Street, <br>Bandra Kurla complex, Mumbai</span>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box rounded-3 text-danger d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <small class="text-uppercase text-secondary-light fw-semibold d-block">Phone</small>
+                                    <span class="fw-medium small">+91 - 123-4567-890</span>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box rounded-3 text-danger d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <small class="text-uppercase text-secondary-light fw-semibold d-block">Email</small>
+                                    <span class="fw-medium small">hello@restaurantfood.com</span>
+                                </div>
+                            </div>
+
+                            <!-- Working Hours -->
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box rounded-3 text-danger d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <small class="text-uppercase text-secondary-light fw-semibold d-block">Working Hours</small>
+                                    <span class="fw-medium small">Wed - Sun: 9 AM - 11 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links d-flex gap-2 mt-4 pt-3">
+                        <a href="#" class="social-icon rounded-3 text-white d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon rounded-3 text-white d-flex align-items-center justify-content-center"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon rounded-3 text-white d-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon rounded-3 text-white d-flex align-items-center justify-content-center"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Contact Form -->
+            <div class="col-lg-7 col-md-7">
+                <div class="contact-form-card p-4 p-xl-5 rounded-4 shadow-sm bg-white h-100">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-dark small">Your Name *</label>
+                                <input type="text" class="form-control form-control-lg custom-input" placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-dark small">Email Address *</label>
+                                <input type="email" class="form-control form-control-lg custom-input" placeholder="you@email.com">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-dark small">Phone Number</label>
+                                <input type="text" class="form-control form-control-lg custom-input" placeholder="+1 (800) 000-0000">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-dark small">Subject *</label>
+                                <select class="form-select form-select-lg custom-input">
+                                    <option selected>General Inquiry</option>
+                                    <option value="3">Feedback</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold text-dark small">Message *</label>
+                                <textarea class="form-control custom-input" rows="5" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-danger btn-lg px-4 py-3 rounded-pill fw-bold shadow-danger d-inline-flex align-items-center gap-2 btn-red">
+                                    <i class="fas fa-paper-plane fs-6"></i> Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER SECTION -->
+<footer class="footer-section bg-dark-custom text-white pt-5">
+    <div class="container py-4">
+        <div class="row g-4">
+
+            <!-- Column 1: Brand & About -->
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-brand mb-3">
+                    <h2 class="brand-logo fw-bold">Restau<span class="text-danger">rent</span></h2>
+                </div>
+                <p class="footer-desc text-muted-custom mb-4 pe-lg-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="footer-socials d-flex gap-2">
+                    <a href="#" class="social-box"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-box"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-box"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="col-lg-2 col-md-6 col-6">
+                <h5 class="footer-heading mb-3">Quick Links</h5>
+                <ul class="list-unstyled footer-links d-flex flex-column gap-2">
+                    <li><a href="#home"><i class="fas fa-chevron-right me-2 text-danger"></i>Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right me-2 text-danger"></i>About Us</a></li>
+                    <li><a href="#menu"><i class="fas fa-chevron-right me-2 text-danger"></i>Our Menu</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right me-2 text-danger"></i>Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Our Menu -->
+            <div class="col-lg-2 col-md-6 col-6">
+                <h5 class="footer-heading mb-3">Our Menu</h5>
+                <ul class="list-unstyled footer-links d-flex flex-column gap-2">
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Burgers</a></li>
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Pizza</a></li>
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Fried Chicken</a></li>
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Wraps & Rolls</a></li>
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Pasta</a></li>
+                    <li><a><i class="fas fa-chevron-right me-2 text-danger"></i>Desserts</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Get In Touch -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="footer-heading mb-3">Get In Touch</h5>
+                <div class="d-flex flex-column gap-3">
+                    <!-- Address -->
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="contact-icon-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <div class="contact-title">Address</div>
+                            <div class="contact-info">42 Flavor Street, Mumbai, India 400057 </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="contact-icon-box">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <div class="contact-title">Phone</div>
+                            <div class="contact-info">+91 - 123-4567-890</div>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="contact-icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <div class="contact-title">Email</div>
+                            <div class="contact-info">hello@restaurant.com</div>
+                        </div>
+                    </div>
+
+                    <!-- Hours -->
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="contact-icon-box">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <div class="contact-title">Hours</div>
+                            <div class="contact-info">Wed - Sun: 09 AM - 11 PM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="footer-bottom mt-4 py-3">
+        <div class="container">
+            <div class="row align-items-center gy-2">
+                <div class="col-md-8 text-center text-md-start">
+                    <p class="copyright-text mb-0">
+                        © 2026 All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="bottom-links d-inline-flex gap-3">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- <section class="food-showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="heading">
+                        <span class="whatweoffer">Food Showcase</span>
+                        <h2 class="stitle">Let's See Our <span>Fast Food</span></h2>
+                        <div class="sline"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll("#filter-buttons .btn");
+        const items = document.querySelectorAll("#gallery-grid .gallery-item");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", (e) => {
+            // 1. Remove active class from previous button and add to current
+            document.querySelector("#filter-buttons .active").classList.remove("active");
+            e.target.classList.add("active");
+
+            // 2. Get the filter value
+            const filterValue = e.target.getAttribute("data-filter");
+
+            // 3. Filter the grid items
+            items.forEach(item => {
+                const itemCategory = item.getAttribute("data-category");
+                
+                if (filterValue === "all" || filterValue === itemCategory) {
+                item.classList.remove("hide");
+                } else {
+                item.classList.add("hide");
+                }
+            });
+            });
+        });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const filterButtons = document.querySelectorAll('.btn-filter');
+            const foodItems = document.querySelectorAll('.food-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    foodItems.forEach(item => {
+                        if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        const multipleItemCarousel = document.querySelector("#testimonialCarousel");
+
+        if (window.matchMedia("(min-width:576px)").matches) {
+        const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+            interval: false
+        });
+
+        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+        var cardWidth = $(".carousel-item").width();
+
+        var scrollPosition = 0;
+
+        $(".carousel-control-next").on("click", function () {
+            if (scrollPosition < carouselWidth - cardWidth * 3) {
+            console.log("next");
+            scrollPosition = scrollPosition + cardWidth;
+            $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+            }
+        });
+        $(".carousel-control-prev").on("click", function () {
+            if (scrollPosition > 0) {
+            scrollPosition = scrollPosition - cardWidth;
+            $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+            }
+        });
+        } else {
+        $(multipleItemCarousel).addClass("slide");
+        }
+
+
+
+        /** active class javascript**/
+     // Select all sections and nav links
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Configuration options for the observer
+const options = {
+  root: null, // Uses the viewport
+  rootMargin: '0px',
+  threshold: 0.6 // Triggers when 60% of the section is visible
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    // Check if the section is entering the view
+    if (entry.isIntersecting) {
+      const id = entry.target.getAttribute('id');
+      
+      // Remove 'active' from all links, add to the current one
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${id}`) {
+          link.classList.add('active');
+        }
+      });
+    }
+  });
+}, options);
+
+// Attach the observer to each section
+sections.forEach(section => observer.observe(section));
+    </script>
+</body>
+</html>
